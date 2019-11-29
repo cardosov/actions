@@ -48,7 +48,7 @@
         <repository>
           <id>github</id>
           <name>GitHub cardosov Packages</name>
-          <url>https://maven.pkg.github.com/cardosov/big-data-plugin</url>
+          <url>https://maven.pkg.github.com/cardosov/${env.GITHUB_REPO}</url>
         </repository>
       </repositories>
       <pluginRepositories>
