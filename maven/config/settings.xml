@@ -45,6 +45,11 @@
             <updatePolicy>never</updatePolicy>
           </snapshots>
         </repository>
+        <repository>
+          <id>github</id>
+          <name>GitHub cardosov Packages</name>
+          <url>https://maven.pkg.github.com/cardosov/big-data-plugin</url>
+        </repository>
       </repositories>
       <pluginRepositories>
         <pluginRepository>
@@ -63,4 +68,13 @@
       </pluginRepositories>
     </profile>
   </profiles>
+          
+  <servers>
+    <server>
+      <id>github</id>
+      <username>cardosov</username>
+      <password>${env.GITHUB_TOKEN}</password>
+    </server>
+  </servers>
+          
 </settings>
