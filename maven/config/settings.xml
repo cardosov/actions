@@ -48,7 +48,7 @@
         <repository>
           <id>github</id>
           <name>GitHub cardosov Packages</name>
-          <url>https://maven.pkg.github.com/cardosov/${gh_repo}</url>
+          <url>https://maven.pkg.github.com/${gh_repo}</url>
         </repository>
       </repositories>
       <pluginRepositories>
