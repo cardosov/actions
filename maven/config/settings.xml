@@ -73,7 +73,7 @@
     <server>
       <id>github</id>
       <username>cardosov</username>
-      <password>1a352fce85daeddb187b4c12f366636d51f40997</password>
+      <password>${env.GITHUB_PERSONAL_TOKEN}</password>
     </server>
   </servers>
           
