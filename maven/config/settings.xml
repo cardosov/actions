@@ -73,7 +73,7 @@
     <server>
       <id>github</id>
       <username>cardosov</username>
-      <password>${GH_TOKEN}</password>
+      <password>${gh_token}</password>
     </server>
   </servers>
           
