@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a one-line script
       run: |
-        echo "${GITHUB_REF##/}"
+        echo "${GITHUB_REF##/*}"
         echo hello
