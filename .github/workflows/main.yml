@@ -10,4 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run a one-line script
-      run: echo "${GITHUB_REF##./}"
+      run: |
+        echo "${GITHUB_REF##./}"
+        echo hello
